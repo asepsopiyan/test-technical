@@ -1,0 +1,25 @@
+{
+   
+  "equipments" : [
+    {
+        "id": 1,
+        "name_equipment" : "AC",
+        "status" : "OFF"
+    },
+    {
+        "id": 2,
+        "name_equipment" : "Stop Kontak",
+        "status" : "OFF"
+    },
+    {
+        "id": 3,
+        "name_equipment" : "Lampu",
+        "status" : "OFF"
+    },
+    {
+        "id": 4,
+        "name_equipment" : "Meteran Listrik",
+        "status" : "ON"
+    }
+  ]
+}
