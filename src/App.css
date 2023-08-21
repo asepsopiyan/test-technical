@@ -5,38 +5,77 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms; 
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.instalasi {
+    font-size: 40px;
+    font-weight: bold;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.sub-title {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .room-input, .status-input {
+    margin-bottom: 15px;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  
+  form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input[type="number"],
+  button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px;
+  }
+  
+  button:hover {
+    background-color: #c4c7ca;
+  }
+  
+  .submitted-data {
+    margin-top: 30px;
+  }
+  
+  .submitted-data h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .submitted-data ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.submitted-data li {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+  
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
