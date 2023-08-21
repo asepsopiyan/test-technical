@@ -14,9 +14,6 @@ function App() {
       <div>
         <Layout >
           <Dashboard />
-          <MasterData />
-          <Instalasi />
-          <Report />
         </Layout>
       </div>
     </>

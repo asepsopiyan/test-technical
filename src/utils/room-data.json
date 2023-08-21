@@ -1,0 +1,24 @@
+[
+	{
+		"id": 1,
+		"room_name": "Ruang Tamu",
+		"equipment": [
+			{
+				"id": 1,
+				"name_equipment": "Stop Kontak",
+				"qty": 0,
+				"status": "OFF"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"room_name": "Kamar Mandi",
+		"equipment": []
+	},
+	{
+		"id": 2,
+		"room_name": "Kamar Tidur",
+		"equipment": []
+	}
+]
