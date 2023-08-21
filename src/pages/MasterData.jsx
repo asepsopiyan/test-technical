@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import {useState} from "react";
 import axios from 'axios';
 // import data from "../utils/data_equipement.json"
+/* eslint-disable no-unused-vars */
+import React from 'react'
 
 const MasterData = () => {
   const [data, setData] = useState([]);
