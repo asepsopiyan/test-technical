@@ -13,10 +13,10 @@ function App() {
     <>
       <div>
         <Layout >
-          <Dashboard />
+          {/* <Dashboard /> */}
           <MasterData />
-          <Instalasi />
-          <Report />
+          {/* <Instalasi /> */}
+          {/* <Report /> */}
         </Layout>
       </div>
     </>
