@@ -1,3 +1,4 @@
+const datas = 
 {
     "room" : [
         {
@@ -49,7 +50,7 @@
             ]
         },
         {
-            "id" : 1,
+            "id" : 3,
             "room_name" : "Kamar Mandi",
             "equipment" : [
                 {
@@ -80,3 +81,5 @@
         }
     ]
 }
+
+export default datas
