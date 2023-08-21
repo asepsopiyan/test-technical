@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"name_equipment": "Stop Kontak",
+		"qty": 0,
+		"status": "OFF"
+	},
+	{
+		"id": 2,
+		"name_equipment": "Lampu",
+		"qty": 0,
+		"status": "OFF"
+	}
+]
